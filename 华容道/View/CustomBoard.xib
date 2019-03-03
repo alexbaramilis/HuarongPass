@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomBoard" customModule="华容道" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="552"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fx2-Ys-gnM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="552"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FhP-Ue-LQv">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="552"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwa-fp-zdU">
+                                    <rect key="frame" x="0.0" y="0.0" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="QUT-pc-KJ0"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBz-lx-bQb">
+                                    <rect key="frame" x="0.0" y="110.5" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="6xs-fG-yZx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3u-gm-5s7">
+                                    <rect key="frame" x="0.0" y="221" width="94" height="110"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="cfe-ud-dE6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW4-CH-tsF">
+                                    <rect key="frame" x="0.0" y="331" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="46M-1m-fXT"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8D-qm-d3V">
+                                    <rect key="frame" x="0.0" y="441.5" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="2JQ-Ul-2oN"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LWZ-1Q-GVG">
+                            <rect key="frame" x="94" y="0.0" width="93.5" height="552"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v35-iA-ZPL">
+                                    <rect key="frame" x="0.0" y="0.0" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="GjJ-8a-bTb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSI-5p-WhM">
+                                    <rect key="frame" x="0.0" y="110.5" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="TUj-y3-uUD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tx-y8-Oo4">
+                                    <rect key="frame" x="0.0" y="221" width="93.5" height="110"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="eXP-hR-wN8"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jej-vB-icU">
+                                    <rect key="frame" x="0.0" y="331" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="6cK-7Y-DWW"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5B-rl-fit">
+                                    <rect key="frame" x="0.0" y="441.5" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="J3a-5j-Qcm"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JfL-pn-Gxx">
+                            <rect key="frame" x="187.5" y="0.0" width="94" height="552"/>
+                            <subviews>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXp-pa-rBf">
+                                    <rect key="frame" x="0.0" y="0.0" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="cn1-b3-GBO"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMk-lW-Crp">
+                                    <rect key="frame" x="0.0" y="110.5" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="NI1-tm-ATj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izx-HR-X1O">
+                                    <rect key="frame" x="0.0" y="221" width="94" height="110"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="HKU-LB-HMQ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUs-bq-0Yz">
+                                    <rect key="frame" x="0.0" y="331" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="8M4-Yn-WCx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpa-Zy-uhv">
+                                    <rect key="frame" x="0.0" y="441.5" width="94" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="LOd-bc-egE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3PT-y1-qii">
+                            <rect key="frame" x="281.5" y="0.0" width="93.5" height="552"/>
+                            <subviews>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uP-o0-wTW">
+                                    <rect key="frame" x="0.0" y="0.0" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="MhP-sN-gSi"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2e-lQ-IE0">
+                                    <rect key="frame" x="0.0" y="110.5" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ejE-S7-rrH"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebW-GW-m7c">
+                                    <rect key="frame" x="0.0" y="221" width="93.5" height="110"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="psE-FO-2DM"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rO-aD-isy">
+                                    <rect key="frame" x="0.0" y="331" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rqw-ZY-9zp"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggV-rL-KYi">
+                                    <rect key="frame" x="0.0" y="441.5" width="93.5" height="110.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" red="0.50196078430000002" green="0.2784313725" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="plusButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="b9L-Kw-SmF"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470589999999" green="0.1137254902" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fx2-Ys-gnM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FEN-ed-PFh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fx2-Ys-gnM" secondAttribute="trailing" id="IOW-Ym-YiU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fx2-Ys-gnM" secondAttribute="bottom" id="RNi-Dg-KLM"/>
+                <constraint firstItem="fx2-Ys-gnM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="l9i-ga-7jW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="80.799999999999997" y="-23.388305847076463"/>
+        </view>
+    </objects>
+</document>
